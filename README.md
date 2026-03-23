@@ -4,10 +4,12 @@ Static assets served by the production app.
 
 ## Layout
 
-- `audio/`: lesson and exam audio files
+- `audio/A/`: level A audio files
+- `audio/B/`: level B audio files
+- `audio/C/`: level C audio files
 - `dele-images/`: DELE scene images
 
 Use filenames that match the app keys exactly:
 
-- audio: `<audio_key>.mp3`
+- audio: `audio/<level>/<audio_key>.mp3`
 - images: `<scene_image_key>.jpg`
